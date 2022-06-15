@@ -1,0 +1,45 @@
+body{
+    background: navajowhite;
+    background-size: cover;
+    font-family: 'Trebuchet MS', sans-serif; 
+  }
+  .container{
+      background: #23223a;
+      width: 15rem;
+      border-radius: 5px;
+      padding: 1.7rem;
+  }
+  .code{
+      white-space: nowrap;
+      font-size: 0.9rem;
+      color: white;
+  }
+  .code .imas{
+      font-size: 0.9rem;
+      color: yellow;
+      display: inline;
+  }
+  .c2{
+      display: inline-block;
+      margin-top: 5%;
+  }
+  .typed-out{
+      overflow: hidden;
+      border-right: .15em solid orange;
+      white-space: nowrap;
+      margin-top: 10%;
+      font-size: 0.9rem;
+      color: cyan;
+      animation: 
+        typing 1.5s steps(20, end) forwards,
+        blinking .75s infinite;
+      width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100%; }
+  }
+  @keyframes blinking {
+    from { border-color: transparent }
+    to { border-color: orange; }
+  }
